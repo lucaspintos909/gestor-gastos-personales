@@ -14,6 +14,8 @@ module.exports = {
         'danger' : '#e01b24',
         'danger-desat' : '#f66151',
         'white-self' : '#d2d2d2',
+        'blue-accent' : '#3584e4',
+        'blue-accent-desat' : '#99c1f1',
       },
     },
   },
