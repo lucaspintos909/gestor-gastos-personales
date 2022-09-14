@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
                 <div className="flex flex-row gap-1 bg-dark-secundary rounded-lg p-4 outline outline-offset-1 outline-transparent hover:outline-accent">
                     <div className="w-20 h-20 bg-blue-accent-desat rounded-lg"></div>
-                    <h2 className="text-white-self font-bold  text-center whitespace-normal">&quot;blue-accent-desat&quot; : AZUL triste :'( </h2>
+                    <h2 className="text-white-self font-bold  text-center whitespace-normal">&quot;blue-accent-desat&quot; : AZUL triste :&apos( </h2>
                 </div>
             </div>
         </div>
