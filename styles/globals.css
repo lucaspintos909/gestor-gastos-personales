@@ -10,6 +10,63 @@
   }
 }
 
+/* TAILWIND BEGIN */
+/* Button contained */
+/* .btn-contained{
+  @apply font-bold;
+} */
+
+.btn-contained-accent{
+  @apply bg-accent;
+}
+.btn-contained-danger{
+  @apply bg-danger;
+}
+.btn-contained-blue{
+  @apply bg-blue;
+}
+
+/* Button outlined */
+
+.btn-outlined{
+  @apply bg-transparent border;
+}
+
+.btn-outlined-accent{
+  @apply transition-colors border-accent hover:bg-accent-transparent;
+}
+
+.btn-outlined-danger{
+  @apply transition-colors border-danger hover:bg-danger-transparent;
+}
+
+.btn-outlined-blue{
+  @apply transition-colors border-blue hover:bg-blue-transparent;
+}
+
+/* Button gradiant */
+
+.btn-gradiant{
+  @apply bg-gradient-to-r
+}
+.btn-gradiant-accent{
+  @apply  from-accent to-accent-desat
+}
+
+.btn-gradiant-danger{
+  @apply  from-danger to-danger-desat
+}
+
+.btn-gradiant-blue{
+  @apply  from-blue to-blue-desat
+}
+
+
+
+/* TAILWIND END */
+
+
+
 html,
 body {
   padding: 0;
@@ -37,3 +94,4 @@ a {
     background: #242424;
   }
 }
+
