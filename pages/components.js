@@ -20,15 +20,15 @@ export default function Components() {
         </h1>
         <h3 className="text-xl font-semibold text-accent-desat">font : Cantarell</h3> 
         <div className="grid grid-cols-3 gap-4 w-6/12 ">
-            <Button variant="contained" color="success">Sexo</Button>
+            <Button variant="contained" color="accent">Sexo</Button>
             <Button variant="contained" color="danger">Sexo</Button>
             <Button variant="contained" color="blue">Sexo</Button>
 
-            <Button variant="outlined" color="success">Sexo</Button>
+            <Button variant="outlined" color="accent">Sexo</Button>
             <Button variant="outlined" color="danger">Sexo</Button>
             <Button variant="outlined" color="blue">Sexo</Button>
 
-            <Button variant="gradiant" color="success">Sexo</Button>
+            <Button variant="gradiant" color="accent">Sexo</Button>
             <Button variant="gradiant" color="danger">Sexo</Button>
             <Button variant="gradiant" color="blue">Sexo</Button>
         </div>
