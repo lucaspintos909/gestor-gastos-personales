@@ -11,10 +11,19 @@
 }
 
 /* TAILWIND BEGIN */
+
+/* Button Size */
+.btn-small{
+  @apply px-10 py-3;
+}
+.btn-normal{
+  @apply px-16 py-3;
+}
+.btn-long{
+  @apply px-24 py-3;
+}
+
 /* Button contained */
-/* .btn-contained{
-  @apply font-bold;
-} */
 
 .btn-contained-accent{
   @apply bg-accent;
