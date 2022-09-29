@@ -1,6 +1,6 @@
 import {React,useState,useEffect} from 'react'
 
-export default function Button( { type='button', onClick, children,size='px-10 py-3',variant='contained',color='success'} ) {
+export default function Button( { type='button', onClick, children,size='normal',variant='contained',color='success'} ) {
   // useEffect(() => {
     
   // },[]);
@@ -9,7 +9,7 @@ export default function Button( { type='button', onClick, children,size='px-10 p
     <button  
       type={type} 
       onClick={onClick} 
-      className={`rounded-lg btn-${variant} btn-${variant}-${color} ${size} font-bold`}
+      className={`rounded-lg btn-${variant} btn-${variant}-${color} btn-${size} font-bold`}
     >
       {children}
     </button>
