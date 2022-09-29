@@ -20,7 +20,7 @@ export default function Components() {
         </h1>
         <h3 className="text-xl font-semibold text-accent-desat">font : Cantarell</h3>
         <details open className="">
-          <summary><h2 className="text-2xl font-bold inline-block">Buttons</h2></summary>
+          <summary className="cursor-pointer list-ite text-white transition-colors duration-200 hover:text-accent "><h2 className="text-2xl font-bold inline-block">Buttons</h2></summary>
           <article className='flex flex-col gap-2 w-6/12'>
             <h3 className="text-xl font-semibold">Types</h3>
             <div className="grid grid-cols-3 gap-4 ">
